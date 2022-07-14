@@ -27,7 +27,7 @@ public:
         else 
         {
             std::cout << "\x1B[93m[WARNING]: " << "Error message was attempted to be displayed, but failed due to incorrect type definition." << "\x1B[37m" << std::endl;
-            std::cout << "\x1B[93m[WARNING]: " << "Была предпринята попытка отобразить сообщение об ошибке, но она не удалась из-за неправильного определения типа ошибки." << "\x1B[37m" << std::endl;
+            std::cout << "\x1B[93m           " << "Была предпринята попытка отобразить сообщение об ошибке, но она не удалась из-за неправильного определения типа ошибки." << "\x1B[37m" << std::endl;
         }
     }
     void Warning(const char* message)
@@ -39,7 +39,7 @@ public:
         else 
         {
             std::cout << "\x1B[93m[WARNING]: " << "Error message was attempted to be displayed, but failed due to incorrect type definition." << "\x1B[37m" << std::endl;
-            std::cout << "\x1B[93m[WARNING]: " << "Была предпринята попытка отобразить сообщение об ошибке, но она не удалась из-за неправильного определения типа ошибки." << "\x1B[37m" << std::endl;
+            std::cout << "\x1B[93m           " << "Была предпринята попытка отобразить сообщение об ошибке, но она не удалась из-за неправильного определения типа ошибки." << "\x1B[37m" << std::endl;
         }
     }
     void Info(const char* message)
@@ -51,8 +51,7 @@ public:
         else 
         {
             std::cout << "\x1B[93m[WARNING]: " << "Error message was attempted to be displayed, but failed due to incorrect error type definition." << "\x1B[37m" << std::endl;
-            std::cout << "\x1B[93m[WARNING]: " << "Была предпринята попытка отобразить сообщение об ошибке, но она не удалась из-за неправильного определения типа ошибки." << "\x1B[37m" << std::endl;
-
+            std::cout << "\x1B[93m           " << "Была предпринята попытка отобразить сообщение об ошибке, но она не удалась из-за неправильного определения типа ошибки." << "\x1B[37m" << std::endl;
         }
     }
 };
