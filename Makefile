@@ -1,3 +1,5 @@
+# Note: this is setup for development on Linux
+
 all: CompileCSharp CompileCPlusPlus RunAll
 
 CompileCSharp:
