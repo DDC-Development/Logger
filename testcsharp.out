@@ -1,0 +1,10 @@
+[NOTE]: This is some data that I am logging to the file.
+[INFO]: This is some data that I am logging to the file.
+[WARNING]: This is some data that I am logging to the file.
+[ERROR]: This is some data that I am logging to the file.
+[FATAL]: This is some data that I am logging to the file.
+[NOTE]: This is some data that I am logging to the file and console.
+[INFO]: This is some data that I am logging to the file and console.
+[WARNING]: This is some data that I am logging to the file and console.
+[ERROR]: This is some data that I am logging to the file and console.
+[FATAL]: This is some data that I am logging to the file and console.
